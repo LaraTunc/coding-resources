@@ -9,8 +9,8 @@ const iconLeft = (window.innerWidth - iconWidth) / 2;
 const App = () => {
   const [codingResources, setCodingResources] = useState();
   const [selectedResource, setSelectedResource] = useState();
-  const url = 'https://api.sampleapis.com/codingresources/codingResources';
 
+  const url = 'https://api.sampleapis.com/codingresources/codingResources';
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
