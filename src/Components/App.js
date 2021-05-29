@@ -58,7 +58,6 @@ const Wrapper = styled.div`
 `;
 
 const Content = styled.div`
-  border: 25px solid #2255ff;
   display: flex;
   flex-direction: column;
   align-items: center;
