@@ -36,7 +36,7 @@ const Modal = ({ selectedResource, setSelectedResource }) => {
 export default Modal;
 
 const Wrapper = styled.div`
-  border: 20px solid #2255ff;
+  border: 20px solid #1d45cc;
   background: #17161c;
   max-width: 100vw;
   min-width: 70vw;
